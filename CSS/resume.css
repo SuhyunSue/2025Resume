@@ -1,0 +1,59 @@
+.resume-default{
+    font-family: "Grape Nuts", cursive;
+    font-style: normal;
+    text-align: center;
+    background-color: rgb(152, 211, 235);
+}
+
+
+.resume-experience {
+    display: flex;
+    flex-wrap: wrap;          /* 여러 줄 가능 */
+    justify-content: center;  /* 가로 중앙 정렬 */
+    gap: 20px;                /* 카드 사이 간격 */
+}
+
+.resume-title
+{
+    font-size: 30px;
+    width: 100%;        /* 한 줄 가득 */
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.resume-inbox {
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 500px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.resume-inbox:hover {
+    background-color: rgb(0, 162, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 500px;
+}
+
+.resume-explain {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+footer {
+    background-color: rgb(152, 211, 235);
+}

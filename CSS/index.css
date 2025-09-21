@@ -1,0 +1,108 @@
+/* 웹사이트 탑바 시작 */
+/* 구글 폰트 */
+.default{
+    font-family: "Grape Nuts", cursive;
+    font-style: normal;
+}
+
+ul {
+  list-style: none;   /* 불필요한 점 제거 */
+  display: flex;      /* 가로 정렬 */
+  padding: 100;
+  margin: 0px;
+  background-color: skyblue;
+  justify-content: space-between;
+  font-family: "Grape Nuts", cursive;
+}
+
+ul li {
+  margin: 0;          /* 기본 마진 제거 */
+  height: 110px;
+  align-items: center; /* 세로 가운데 정렬 */
+}
+
+.logo {
+    font-size: 70px;
+    padding: 0 10px;
+}
+
+.left-top-bar {
+    font-size:25px;
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: 20px;    
+    
+}
+
+.left-top-bar a:hover{
+    color:rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: black; /* 글자색 */
+    padding: 5px 10px;
+}
+/* 웹사이트 탑바 끝 */
+
+
+.main-home {
+    background-image: linear-gradient(to right, rgb(152, 211, 235) 50%, rgb(255, 255, 255) 50%);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end; /* 세로 방향 아래로 */
+    align-items: center;
+    gap: 10px; /* 이미지와 텍스트 사이 간격 */
+    font-family: "Grape Nuts", cursive;
+
+}
+
+.main-meddle-image {
+    width: 40vw;   /* div 너비에 맞게 */
+    max-width: 400px; /* 선택 사항: 너무 커지는 건 방지 */
+    height: auto;  /* 비율 유지 */
+    display: block; /* 여백 제거 */
+    margin: 0 auto;
+    flex-shrink: 0; /* 크기 줄어들지 않게 */
+}
+
+.main-meddle-wrapper{
+    position: absolute;
+    top: 50%;       /* 세로 중앙 */
+    left: 55%;      /* 왼쪽 배경 중앙 기준 */
+    transform: translate(-50%, -50%); /* 좌표를 wrapper 중심 기준으로 이동 */
+    display: flex;   /* 가로로 나란히 */
+    align-items: center; /* 세로 가운데 맞춤 */
+    gap: 20px;       /* 이미지와 텍스트 사이 간격 */
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column; /* 글자는 세로 배치 */
+    margin-left: 20px;      /* 이미지와 글자 사이 간격 */
+}
+
+.main-writing {
+    font-size: 2rem;
+    align-content: center;
+}
+
+.sentence1{
+    font-size: 1rem;
+    align-content: center;
+}
+
+.footer-img img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 50px;
+}
