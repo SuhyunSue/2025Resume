@@ -1,5 +1,8 @@
 # Suhyun Jeong Portfolio
 
+## Currently this pages need to update
+## last update 21/Sep/2025
+
 Welcome to my personal portfolio website! 
 This project showcases my skills, experience, and projects as a junior web developer.
 
@@ -29,7 +32,3 @@ This is a single-page portfolio website built using HTML, CSS, and JavaScript. I
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/2026Resume.git
-
-
-## Currently this pages need to update
-##last update 21/Sep/2025
