@@ -1,7 +1,11 @@
 /* 웹사이트 탑바 시작 */
 /* 구글 폰트 */
+.logo {
+    margin-top: 10px;
+}
+
 .default{
-    font-family: "Grape Nuts", cursive;
+    font-family: "Inter", sans-serif;
     font-style: normal;
 }
 
@@ -10,14 +14,14 @@ ul {
   display: flex;      /* 가로 정렬 */
   padding: 100;
   margin: 0px;
-  background-color: skyblue;
+  background-color: rgb(106, 106, 106);
   justify-content: space-between;
-  font-family: "Grape Nuts", cursive;
+  font-family: "Inter", sans-serif;
 }
 
 ul li {
   margin: 0;          /* 기본 마진 제거 */
-  height: 110px;
+  height: 100px;
   align-items: center; /* 세로 가운데 정렬 */
 }
 
@@ -48,34 +52,29 @@ a {
 
 
 .main-home {
-    background-image: linear-gradient(to right, rgb(152, 211, 235) 50%, rgb(255, 255, 255) 50%);
-    width: 100vw;
-    height: 80vh;
+    background-image: linear-gradient(to right, rgb(165, 165, 165) 50%, rgb(255, 255, 255) 50%);
+    width: 100%;
+    min-height: 70vh;  /* 화면 높이 확보 */
     display: flex;
-    justify-content: flex-end; /* 세로 방향 아래로 */
-    align-items: center;
-    gap: 10px; /* 이미지와 텍스트 사이 간격 */
-    font-family: "Grape Nuts", cursive;
+    justify-content: center;  /* 가로 중앙 */
+    align-items: center;      /* 세로 중앙 */
+    gap: 20px;
+}
 
+.main-meddle-wrapper{
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .main-meddle-image {
-    width: 40vw;   /* div 너비에 맞게 */
-    max-width: 400px; /* 선택 사항: 너무 커지는 건 방지 */
+    width: 30vw;   /* div 너비에 맞게 */
+    max-width: 300px; /* 선택 사항: 너무 커지는 건 방지 */
     height: auto;  /* 비율 유지 */
     display: block; /* 여백 제거 */
     margin: 0 auto;
     flex-shrink: 0; /* 크기 줄어들지 않게 */
-}
-
-.main-meddle-wrapper{
-    position: absolute;
-    top: 50%;       /* 세로 중앙 */
-    left: 55%;      /* 왼쪽 배경 중앙 기준 */
-    transform: translate(-50%, -50%); /* 좌표를 wrapper 중심 기준으로 이동 */
-    display: flex;   /* 가로로 나란히 */
-    align-items: center; /* 세로 가운데 맞춤 */
-    gap: 20px;       /* 이미지와 텍스트 사이 간격 */
 }
 
 .textbox{
