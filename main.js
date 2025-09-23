@@ -1,6 +1,6 @@
 
 
-let images = ["image/IMG_9438.jpg", "image/email.png", "image/git.png", "image/insta.PNG", "image/linkedinlogo.PNG"];
+let images = ["image/Dinner.jpg", "image/dinner at GC.jpg", "image/ceremony.JPG", "image/ceremony 2.JPG", "image/Childhood.jpg","image/BDay.JPG"];
 let currentIndex = 0;
 
 function showImage(index) {

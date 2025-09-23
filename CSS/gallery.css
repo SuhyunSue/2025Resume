@@ -37,3 +37,9 @@
   cursor: pointer;    /* 마우스 올리면 포인터 */
   background-color: #ffffff00; /* 배경색 */
 }
+
+.gallery-note{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
