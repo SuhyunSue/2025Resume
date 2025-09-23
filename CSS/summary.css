@@ -5,4 +5,39 @@
     margin-right: 50px;
     font-size: 25px;
     letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.summary-box {
+    display: inline-block; /* 텍스트가 박스 안에 나타나도록 */
+    padding: 0px 10px; /* 박스 안의 여백 */
+    border: 2px solid #e5e5e5; /* 박스의 테두리 */
+    background-color: #f0f0f0; /* 박스의 배경색 */
+    font-weight: bold; /* 텍스트 굵기 */
+    border-radius: 5px; /* 테두리 둥글게 */
+    text-align: center;     /* 가로 가운데 */
+    line-height: 1.5;       /* 세로 간격 조절 */
+    
+}
+
+.summary-box:hover {
+    background-color: #949494; /* 박스의 배경색 */
+}
+
+.resume-wrapper {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.resume-down {
+    display: inline-block; /* 박스 형태 유지 */
+    padding: 5px 15px;
+    border: 2px solid #e5e5e5;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.resume-down:hover {
+    background-color: #dfdfdf;
 }

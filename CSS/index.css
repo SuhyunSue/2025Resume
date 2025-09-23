@@ -2,11 +2,12 @@
 /* 구글 폰트 */
 .logo {
     margin-top: 10px;
+    padding: 0 10px;
 }
 
-.default{
-    font-family: "Inter", sans-serif;
-    font-style: normal;
+.logo-img {
+    height: 80px;
+    margin-left: -30px;
 }
 
 ul {
@@ -25,16 +26,6 @@ ul li {
   align-items: center; /* 세로 가운데 정렬 */
 }
 
-.logo {
-    font-size: 70px;
-    padding: 0 10px;
-
-}
-
-.logo img {
-    height: 80px;
-    margin-left: -30px;
-}
 
 .left-top-bar {
     font-size:25px;
@@ -106,5 +97,6 @@ footer
 {
     text-align: center;
     margin-top: 50px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
 }
-
