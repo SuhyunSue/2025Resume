@@ -145,12 +145,17 @@ footer
     height: auto;
     margin-bottom: 15px;
     display: block;
+    margin-top: 10px;
   }
 
   .textbox{
     width: 100%;
     font-size: 14px;
     line-height: 1.5;
+  }
+
+  .main-writing{
+    text-align: center;
   }
 
   .sentence1{
