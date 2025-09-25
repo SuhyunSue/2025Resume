@@ -100,3 +100,9 @@ footer
     font-family: "Inter", sans-serif;
     font-style: normal;
 }
+
+@media screen and (max-width: 767px){
+    #header .product_wrap .list_product li {
+        width: calc(50%);
+    }
+}
