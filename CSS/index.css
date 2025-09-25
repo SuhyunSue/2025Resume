@@ -156,5 +156,6 @@ footer
   .sentence1{
     display: block;
     margin-bottom: 8px;
+    text-align: center;
   }
 }
