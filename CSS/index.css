@@ -123,4 +123,32 @@ footer
     max-width: 120px; /* 로고 크기 줄임 */
     height: auto;
   }
+
+  .main-home {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .main-meddle-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-meddle-image{
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .textbox{
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .sentence1{
+    display: block;
+    margin-bottom: 8px;
+  }
 }
