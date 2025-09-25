@@ -66,16 +66,16 @@ footer {
     }
 
     .resume-inbox {
-        font-size: 50%;
+        font-size: 80%;
         padding: 20px;
         margin-left: 10px;
         margin-bottom: 10px;
-        width: 70%;
+        width: 90%;
         margin-top: 8px;
         font-weight: bold;
      }
 
     .resume-explain {
-        font-size: 80%;
+        font-size: 90%;
     }
 }
