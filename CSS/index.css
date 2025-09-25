@@ -102,7 +102,22 @@ footer
 }
 
 @media screen and (max-width: 767px){
-    #header .product_wrap .list_product li {
-        width: calc(50%);
+    .topbar ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topbar ul li {
+        margin: 5px 0;
+    }
+
+    .left-top-bar a {
+    display: block;   /* 링크를 세로로 쌓이게 */
+    padding: 10px 0;
+    }
+    
+    .logo-img {
+    max-width: 120px; /* 로고 크기 줄이기 */
+    height: auto;
     }
 }
