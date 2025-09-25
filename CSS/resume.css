@@ -57,3 +57,12 @@
 footer {
     background-color:rgb(106, 106, 106);
 }
+
+
+@media screen and (max-width: 767px) {
+    .resume-experience  {
+        font-size: 70%;
+        width: 70%;
+    }
+
+}

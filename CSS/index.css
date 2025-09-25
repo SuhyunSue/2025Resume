@@ -133,12 +133,14 @@ footer
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .main-meddle-image{
     max-width: 90%;
     height: auto;
     margin-bottom: 15px;
+    display: block;
   }
 
   .textbox{
