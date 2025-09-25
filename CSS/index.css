@@ -101,23 +101,26 @@ footer
     font-style: normal;
 }
 
-@media screen and (max-width: 767px){
-    .topbar ul{
-        flex-direction: column;
-        align-items: center;
-    }
+@media screen and (max-width: 767px) {
+  .Top-bar ul {
+    display: flex;
+    flex-direction: column; /* 가로 → 세로 */
+    align-items: center;    /* 가운데 정렬 */
+    padding: 0;
+  }
 
-    .topbar ul li {
-        margin: 5px 0;
-    }
+  .Top-bar ul li {
+    margin: 10px 0; /* 각 메뉴 간격 */
+  }
 
-    .left-top-bar a {
-    display: block;   /* 링크를 세로로 쌓이게 */
-    padding: 10px 0;
-    }
-    
-    .logo-img {
-    max-width: 120px; /* 로고 크기 줄이기 */
+  .left-top-bar a {
+    display: block;   /* 링크 전체가 클릭 영역 */
+    padding: 8px 0;
+    font-size: 16px;  /* 글씨 크기 조금 줄이기 */
+  }
+
+  .logo-img {
+    max-width: 120px; /* 로고 크기 줄임 */
     height: auto;
-    }
+  }
 }
