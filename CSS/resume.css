@@ -61,8 +61,16 @@ footer {
 
 @media screen and (max-width: 767px) {
     .resume-experience  {
-        font-size: 70%;
+        font-size: 50%;
         width: 70%;
     }
 
+    .resume-inbox .resume-explain {
+        font-size: 50%;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 70%;
+        margin-top: 8px;
+        font-weight: bold;
+    }
 }
